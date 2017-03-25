@@ -16,4 +16,18 @@ public class BaseClass {
     public void setName(String name) {
         this.name = name;
     }
+
+    /**
+     * first form
+     * @param a
+     * @param b
+     * @return
+     */
+    public  int sun(int a,int b){
+        return  sun(a,b,0);
+    }
+
+    public  int sun(int a,int b,int c){
+        return  a+b+c;
+    }
 }

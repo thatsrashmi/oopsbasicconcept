@@ -26,4 +26,9 @@ public class DerivedClass extends BaseClass {
         System.out.println("rashmi");
 
     }
+
+    public void doSomethingNew() {
+        System.out.println("something new ");
+
+    }
 }
